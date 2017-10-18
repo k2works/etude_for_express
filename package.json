@@ -1,0 +1,11 @@
+{
+  "name": "etude_for_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/k2works/etude_for_express.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {}
+}
