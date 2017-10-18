@@ -19,6 +19,12 @@ Expressアプリケーションのための練習プログラム集
 1. [開発](#開発)
 
 ## 構築
+### 仮想マシン起動
+```bash
+vagrant up
+vagrant ssh
+```
+
 **[⬆ back to top](#構成)**
 
 ## 配置
