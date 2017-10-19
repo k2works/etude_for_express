@@ -125,6 +125,34 @@ yarn add --dev jest babel-jest
 yarn add --dev husky
 ```
   
+### 03 - Express, Nodemon, and PM2
+  
+#### Express
+  
+> ExpressはNodeでおそらくもっともポピュラーなwebアプリケーションフレームワーク。シンプルかつ最小限のAPIを提供し、そしてミドルウェアにより機能を拡張できる。
+  
+```bash
+yarn add express compression
+```
+  
+#### Nodemon
+  
+> Nodemonはディレクトリ内のファイルが変更された時、自動的にNodeサーバーを再起動してくれるユーティリティ。
+  
+```bash
+yarn add --dev nodemon
+```
+  
+#### PM2
+  
+> PM2はNode用プロセスマネージャ。プロダクション環境でプロセスを維持する、そしてプロセスのモニタリングと管理機能を提供する。
+  
+```bash
+yarn add --dev pm2
+yarn add --dev rimraf
+yarn add --dev cross-env
+```
+  
 **[⬆ back to top](#構成 )**
   
 ## 配置
