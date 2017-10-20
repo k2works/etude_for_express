@@ -153,6 +153,34 @@ yarn add --dev rimraf
 yarn add --dev cross-env
 ```
   
+### 04 - Webpack, React, and Hot Module Replacement
+  
+#### Webpack
+  
+> Webpackはモジュールバンドラー。バンドルと呼ばれるクライアントから実行される唯一のJavaScriptファイルを様々なソースファイルから取りまとめて作る。
+  
+```bash
+yarn add babel-polyfill
+yarn add --dev webpack webpack-dev-server babel-core babel-loader
+```
+  
+#### React
+  
+> ReactはFacebookが提供するユーザーインターフェース構築用ライブラリ。HTML要素表現とJavaScriptの効果を高めるコンポーネントを表現するJSXシンタックスを使う。
+  
+```bash
+yarn add react react-dom
+yarn add --dev babel-preset-react babel-plugin-flow-react-proptypes
+```
+  
+#### Hot Module Replacement
+  
+> Hot Module Replacement(HMR)はページをリロードすることなくモジュールをすぐに更新する強力なWebpackの機能。
+  
+```bash
+yarn add react-hot-loader@next
+```
+  
 **[⬆ back to top](#構成 )**
   
 ## 配置
