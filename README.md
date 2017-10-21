@@ -181,6 +181,69 @@ yarn add --dev babel-preset-react babel-plugin-flow-react-proptypes
 yarn add react-hot-loader@next
 ```
   
+### 05 - Redux, Immutable, and Fetch
+  
+#### ImmutableJS
+  
+> ImmutableJS(またはダダのImmutable)はFacebookによるリストやマップのようなイミュータブルコレクションライブラリ。オリジナルオブジェクトを変更することなく変更時は新しいオブジェクトを返す。
+  
+```javascript
+const obj = Immutable.Map({ a: 1 })
+obj.set('a', 2) // Returns a new object without mutating `obj`
+```
+  
+```javascript
+const immutablePerson = Immutable.fromJS({
+  name: 'Stan',
+  friends: ['Kyle', 'Cartman', 'Kenny'],
+})
+  
+console.log(immutablePerson)
+  
+/*
+ *  Map {
+ *    "name": "Stan",
+ *    "friends": List [ "Kyle", "Cartman", "Kenny" ]
+ *  }
+ */
+```
+  
+```bash
+yarn add immutable@4.0.0-rc.2
+```
+  
+#### Redux
+  
+> Reduxはアプリケーションのライフサイクルを取り扱うライブラリ。
+  
+```bash
+yarn add redux redux-actions
+```
+  
+#### React-Redux
+  
+> react-reduxはReduxストアをReactコンポーネントに接続する。react-reduxにより、Reduxストアが変わるとReactコンポーネントは自動的に更新される。またReduxアクションが着火する。
+  
+```bash
+yarn add react-redux
+```
+ComponentsはReduxのステータスを全く知らないダムReactコンポーネント。
+Containersはこれからつなごうとするダムコンポーネントとステータスを知っている賢いコンポーネント。
+  
+#### Fetch
+  
+> FetchはjQueryのAJAXメソッドに触発された標準化されたJavaScript非同期呼び出し関数
+```bash
+yarn add isomorphic-fetch
+yarn add redux-thunk
+```
+  
+#### Testing
+  
+```bash
+yarn add --dev redux-mock-store fetch-mock
+```
+  
 **[⬆ back to top](#構成 )**
   
 ## 配置
