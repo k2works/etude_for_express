@@ -244,6 +244,27 @@ yarn add redux-thunk
 yarn add --dev redux-mock-store fetch-mock
 ```
   
+### 06 - React Router, Server-Side Rendering, and Helmet
+  
+#### React Router
+  
+> React RouterはReactアプリケーション内ページナビゲーションライブラリ。クライアントとサーバの両方で使える
+```bash
+yarn add react-router react-router-dom
+```
+  
+#### Server-Side Rendering
+  
+> Server-Side RenderingはクライアントブラウザによるJavaScriptレンダリングに依存する代わりにアプリケーションで初期読み込みレンダリングすること
+  
+#### React Helmet
+  
+> React Helmet: Reactアプリケーションのクライアント・サーバー両方のヘッダにコンテンツを挿入するライブラリ
+  
+```bash
+yarn add react-helmet
+```
+  
 **[⬆ back to top](#構成 )**
   
 ## 配置

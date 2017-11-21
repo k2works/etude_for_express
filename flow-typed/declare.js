@@ -43,3 +43,15 @@ declare module 'isomorphic-fetch' {
 declare module 'redux-thunk' {
   declare module.exports: any;
 }
+
+declare module 'react-router' {
+  declare module.exports: any;
+}
+
+declare module 'react-router-dom' {
+  declare module.exports: any;
+}
+
+declare module 'react-helmet' {
+  declare module.exports: any;
+}
