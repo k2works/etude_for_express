@@ -64,3 +64,18 @@ declare module 'socket.io' {
   declare module.exports: any;
 }
 
+declare module 'jquery' {
+  declare module.exports: any;
+}
+
+declare module 'tether' {
+  declare module.exports: any;
+}
+
+declare module 'bootstrap' {
+  declare module.exports: any;
+}
+
+declare module 'react-jss' {
+  declare module.exports: any;
+}

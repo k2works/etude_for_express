@@ -3,6 +3,7 @@ suppress_comment= \\(.\\|\n\\)*\\flow-disable-next-line
 
 [ignore]
 .*/node_modules/.*
+.*/node_modules/jss/.*
 
 [libs]
 flow-typed
