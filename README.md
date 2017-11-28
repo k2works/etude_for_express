@@ -1,5 +1,8 @@
   
-  
+[![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_express.svg )](https://circleci.com/gh/k2works/etude_for_express) 
+[![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_express.svg?style=flat-square )](https://coveralls.io/github/k2works/etude_for_express?branch=master)
+[![Release](https://img.shields.io/github/release/k2works/etude_for_express.svg?style=flat-square)](https://github.com/k2works/etude_for_express/releases)
+
 # Etude for Express
   
 ---
@@ -298,6 +301,37 @@ yarn add react-jss
   
 ## 配置
   
+### CircleCI
+  
+```bash
+mkdir .circleci
+touch .circleci/config.ym
+```
+  
+### Coveralls
+  
+```bash
+yarn add --dev blanket coveralls nyc
+```
+  
+### Bages
+  
+[shields.io](http://shields.io/ )
+  
+```text
+[![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_express.svg)](https://circleci.com/gh/k2works/etude_for_express)
+[![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_express.svg?style=flat-square)](https://coveralls.io/github/k2works/etude_for_express?branch=master)
+```
+  
+### Heroku
+  
+```bash
+ heroku create etude-for-express
+ heroku create etude-for-express-staging
+ heroku config:set NPM_CONFIG_PRODUCTION="false" --app "etude-for-express"
+ heroku config:set NPM_CONFIG_PRODUCTION="false" --app "etude-for-express-staging"
+```
+  
 **[⬆ back to top](#構成 )**
   
 ## 運用
@@ -309,4 +343,5 @@ yarn add react-jss
 **[⬆ back to top](#構成 )**
   
 # 参照 #
++ [JavaScript Stack from Scratch](https://github.com/verekia/js-stack-from-scratch)
   
