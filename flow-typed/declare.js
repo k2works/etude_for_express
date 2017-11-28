@@ -55,3 +55,12 @@ declare module 'react-router-dom' {
 declare module 'react-helmet' {
   declare module.exports: any;
 }
+
+declare module 'socket.io-client' {
+  declare module.exports: any;
+}
+
+declare module 'socket.io' {
+  declare module.exports: any;
+}
+

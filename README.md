@@ -260,9 +260,17 @@ yarn add react-router react-router-dom
 #### React Helmet
   
 > React Helmet: Reactアプリケーションのクライアント・サーバー両方のヘッダにコンテンツを挿入するライブラリ
-  
+
 ```bash
 yarn add react-helmet
+```
+  
+### 07 - Socket.IO
+  
+> Socket.IOはWebsocketsを簡単に取り扱うライブラリ。便利なAPIとWebsocketsをサポートしていないブラウザの最後の頼みを提供する
+  
+```bash
+yarn add socket.io socket.io-client
 ```
   
 **[⬆ back to top](#構成 )**
